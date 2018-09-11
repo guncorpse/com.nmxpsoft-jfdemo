@@ -64,6 +64,99 @@ export default [
           },
         ],
       },
+
+      // 组织机构管理
+      {
+        path: '/organization',
+        name: 'organization',
+        icon: 'dashboard',
+      },
+
+      // 职位管理
+      {
+        path: '/position',
+        name: 'position',
+        icon: 'dashboard',
+      },
+
+      // 岗位管理
+      {
+        path: '/post',
+        name: 'post',
+        icon: 'dashboard',
+      },
+
+       // 员工管理
+      {
+        path: '/staff',
+        name: 'staff',
+        icon: 'dashboard',
+      },
+
+      // 权限管理
+      {
+        path: '/permission',
+        name: 'permission',
+        icon: 'dashboard',
+      },
+
+      // 项目管理
+      {
+        path: '/project',
+        name: 'project',
+        icon: 'dashboard',
+      },
+
+      // 项目环节管理
+      {
+        path: '/project_link',
+        name: 'project_link',
+        icon: 'dashboard',
+      },
+
+      // 项目任务管理
+      {
+        path: '/project_task',
+        name: 'project_task',
+        icon: 'dashboard',
+      },
+
+      // 项目子任务管理
+      {
+        path: '/project_subtask',
+        name: 'project_subtask',
+        icon: 'dashboard',
+      },
+
+      // 积分管理
+      {
+        path: '/integral',
+        name: 'integral',
+        icon: 'dashboard',
+        routes: [
+          {
+            path: '/integral/earnpoints',
+            name: 'earnpoints',
+            component: './Forms/BasicForm',
+          },
+          {
+            path: '/integral/culturalcontribution',
+            name: 'culturalcontribution',
+            component: './Forms/BasicForm',
+          },
+          {
+            path: '/integral/totalpoints',
+            name: 'totalpoints',
+            component: './Forms/BasicForm',
+          },
+          {
+            path: '/integral/statistics',
+            name: 'statistics',
+            component: './Forms/BasicForm',
+          },
+        ]
+      },
+
       // forms
       {
         path: '/form',
